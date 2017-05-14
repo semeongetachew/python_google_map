@@ -18,5 +18,5 @@ class TestHandler(webapp2.RequestHandler):
         #q = self.request.get("q")
         #self.response.out.write(q)
         self.response.headers['Content-Type'] = 'text/plain'
-
+// Needs to be double checked
 app = webapp2.WSGIApplication([('/', MainPage)],debug=True)
